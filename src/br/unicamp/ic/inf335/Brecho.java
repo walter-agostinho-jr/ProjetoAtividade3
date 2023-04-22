@@ -40,8 +40,8 @@ public class Brecho {
 		// Calcula M�dia
 		Double media = 0.0;
 		int i = 1;
-		while (i<=produtos.size()) {
-			media = produtos.get(i).getValor();
+		while (i<produtos.size()) {
+			media += produtos.get(i).getValor();
 			i++;
 		}
 		media = media / i;
